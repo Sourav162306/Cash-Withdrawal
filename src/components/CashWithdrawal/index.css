@@ -1,0 +1,68 @@
+.container {
+  font-family: Roboto;
+}
+.card-container {
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+}
+.name-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.logo-container {
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  width: 80px;
+  height: 80px;
+}
+.name-paragraph {
+  text-align: center;
+  color: #7c3aed;
+  font-size: 20px;
+}
+.name-heading {
+  color: #d4d2db;
+  margin-left: 30px;
+  font-size: 30px;
+}
+.balance-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.your-balance {
+  color: #585076;
+  font-size: 25px;
+}
+.balance-container {
+}
+.balance {
+  color: #d4d2db;
+  font-size: 35px;
+}
+.balance-inr {
+  color: #585076;
+  font-size: 18px;
+}
+
+.withdraw-heading {
+  color: #d4d2db;
+  font-size: 30px;
+}
+.choose-sum {
+  color: #585076;
+  font-size: 23px;
+}
+.denomination-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
